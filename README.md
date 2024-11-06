@@ -19,9 +19,7 @@ My Portfolio summarizing my background and goals in cloud engineering.
 
 </head>
 <body>
-    
-    
-   <p>mes liens<a href="https://www.linkedin.com/feed/">Mon LinkedIn</a></p>
+   <p><a href="https://www.linkedin.com/feed/">Mon LinkedIn</a></p>
 </body>
 </html>
 
