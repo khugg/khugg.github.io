@@ -1,5 +1,5 @@
 # My Portfolio
-Welcome to my portfolio! This project showcases my skills, projects as a future cloud engineering .
+Welcome to my portfolio! This project showcases my skills, projects as a future cloud engineer .
 
 
 ## Table of Contents
