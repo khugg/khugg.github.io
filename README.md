@@ -9,7 +9,7 @@ Welcome to my portfolio! This project showcases my skills, projects as a future 
 - [Project Link](#ProjectLink)
 
 ## Introduction
-My Portfolio summarizing my background and goals in cloud engineering.
+My name is Viviane Huguette and I'm an IT technician by profession who wants to learn more about the Cloud. Through this portfolio, I will share my various achievements and projects in the field cloud engineering.
 
 ## Social Links
 
