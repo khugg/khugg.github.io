@@ -20,6 +20,8 @@ My Portfolio summarizing my background and goals in cloud engineering.
 </head>
 <body>
    <p><a href="https://www.linkedin.com/feed/">My linkedin profile</a></p>
+   <p><a href="https://github.com/">My Github</a></p>
+  
 </body>
 </html>
 
