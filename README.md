@@ -29,7 +29,15 @@ My Portfolio summarizing my background and goals in cloud engineering.
 
 
 ## Skills Section
+<!DOCTYPE html>
+<html>
+<head>
 
+</head>
+<body>
+   <p> I don't yet have any skills in cloud engineering, but I do have some knowledge of the Python language and its libraries. </p>
+</body>
+</html>
 
 ## Project Link
 
