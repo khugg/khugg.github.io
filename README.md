@@ -16,29 +16,17 @@ My name is Viviane Huguette and I'm an IT technician by profession who wants to 
 <!DOCTYPE html>
 <html>
 <head>
-
 </head>
 <body>
    <p><a href="https://www.linkedin.com/feed/">My linkedin profile</a></p>
    <p><a href="https://github.com/">My Github</a></p>
    <p> I'll add more links if needed :)</p>
-   
-  
 </body>
 </html>
 
 
 ## Skills Section
- I don't yet have any skills in cloud engineering, but I do have some knowledge of the Python language and its libraries. </p>
+ I don't yet have any skills in cloud engineering, but I do have some knowledge of the Python language and its libraries. 
 
 ## Project Link
-<!DOCTYPE html>
-<html>
-<head>
-
-</head>
-<body>
-   <p> Coming Soon... </p>
-</body>
-</html>
-
+ Coming Soon... 
