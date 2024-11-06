@@ -16,7 +16,7 @@ My Portfolio summarizing my background and goals in cloud engineering.
 <!DOCTYPE html>
 <html>
 <head>
-<title></title>
+
 </head>
 <body>
     <h1></h1>
