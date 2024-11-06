@@ -6,6 +6,7 @@ Welcome to my portfolio! This project showcases my skills, projects as a future 
 - [Introduction](#introduction)
 - [Social Links](#SocialLinks)
 - [Skills Section](#SkillSection)
+- [Project Link](#ProjectLink)
 
 ## Introduction
 My Portfolio summarizing my background and goals in cloud engineering.
