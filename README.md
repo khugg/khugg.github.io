@@ -29,15 +29,7 @@ My name is Viviane Huguette and I'm an IT technician by profession who wants to 
 
 
 ## Skills Section
-<!DOCTYPE html>
-<html>
-<head>
-
-</head>
-<body>
-   <p> I don't yet have any skills in cloud engineering, but I do have some knowledge of the Python language and its libraries. </p>
-</body>
-</html>
+ I don't yet have any skills in cloud engineering, but I do have some knowledge of the Python language and its libraries. </p>
 
 ## Project Link
 <!DOCTYPE html>
