@@ -40,4 +40,13 @@ My Portfolio summarizing my background and goals in cloud engineering.
 </html>
 
 ## Project Link
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+   <p> Coming Soon... </p>
+</body>
+</html>
 
