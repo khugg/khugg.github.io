@@ -2,10 +2,6 @@
 Welcome to my portfolio! This project showcases my skills, projects, and experiences as a web developer.
 
 
-## Some Images:
-
-
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
