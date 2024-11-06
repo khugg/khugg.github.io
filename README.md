@@ -4,9 +4,9 @@ Welcome to my portfolio! This project showcases my skills, projects as a future 
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Social Links](#sociallinks)
-- [Skills Section](#skillssection)
-- [Project Link](#projectlink)
+- [Social Links](#social-links)
+- [Skills Section](#skills-section)
+- [Project Link](#project-link)
 
 ## Introduction
 My name is Viviane Huguette and I'm an IT technician by profession who wants to learn more about the Cloud. Through this portfolio, I will share my various achievements and projects in the field cloud engineering.
