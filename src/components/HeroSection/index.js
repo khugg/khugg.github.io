@@ -2,7 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { Bio } from '../../data/constants';
 import Typewriter from 'typewriter-effect';
-import { Subtitles } from "@mui/icons-material";
+import { Subitles } from "@mui/icons-material";
+import HeroImg from "../../images/Heroimages.jpg";
 
 
 const HeroContainer = styled.div`
@@ -28,7 +29,7 @@ display: flex;
 justify-content: end;
 right: 0;
 bottom: 0;
-width: 100%;
+width: 85%;
 height: 100%;
 overflow: hidden;
 padding: 0 30px;
@@ -185,12 +186,35 @@ const ResumeButton = styled.a`
 
 `;
 
+const Image = styled.img`
+position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  border: 2px solid ${({ theme }) => theme.primary};
+
+  @media screen and (max-width: 768px) {
+    max-width: 400px;
+    max-height: 400px;
+  }
+
+  @media sreen and  (max-width: 640px) {
+    max-width: 280px;
+    max-height: 280px;
+  }
+
+`;
 
 const HeroSection = () => {
     return (
       <div id="about">
         <HeroContainer>
           <HeroBg>
+            
           </HeroBg>
           <HeroInnerContainer>
             <HeroLeftContainer>
@@ -213,10 +237,10 @@ const HeroSection = () => {
                         <SubTitle>
                           {Bio.description}
                         </SubTitle>
-                        <ResumeButton href={Bio.resume} target='_blank'>Check Resume</ResumeButton>
+                        <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
             </HeroLeftContainer>
             <HeroRightContainer>
-
+                <Image src={HeroImg} alt="Hero"/>
             </HeroRightContainer>
           </HeroInnerContainer>
         </HeroContainer>
