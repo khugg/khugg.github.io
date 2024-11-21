@@ -3,6 +3,7 @@ import styled, { ThemeProvider } from 'styled-components';
 import { darkTheme } from './utils/themes.js'
 import Navbar from './components/navbar';
 import Skills from './components/Skills/index.js';
+import Experience from './components/Experience/index.js';
 import Education from './components/Education/index.js';
 import {BrowserRouter as Router } from "react-router-dom";
 import HeroSection from './components/HeroSection/index.js';
@@ -37,6 +38,7 @@ function App() {
           <HeroSection />
           <Wrapper>
           <Skills />
+          <Experience />
           <Education />
         </Wrapper>
       </Body>

@@ -15,12 +15,32 @@ export const Bio = {
   
   export const skills = [
     {
-      title: "Networking",
+      title: "Azure Cloud Services",
       skills: [
         {
-          name: "VMSS",
+          name: "Azure Virtual Machines",
           image:
             "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F992l7q3goclsz7dnyemr.png",
+        },
+
+        {
+          name: "Azure Storage",
+          image:
+            "https://dbmstools.com/images/dbms/azure_blob_storage.png",
+        },
+        
+
+        {
+          name: "Load Balancers",
+          image:
+            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQKAhWWKmin6r4vMGEaDHfBx1-XJbQ-fvVAPvUNOo7tzATwb4xxcnOlCRCblqOurLOZWI3_XARJB0WY4dnhM9VYEcruxKdEtC6t9xgNkzmdiPTNpl_LUAUw6mbwqcXNbVKWLezMYy8-WJq7oGlYtjvtmqmr6CRvaChZWqgzyFfCgaVmZgAjZAZhXrZTsEx/s1600/load-balancer-64c79c1125896-1.webp",
+        },
+
+
+        {
+          name: "Azure AD",
+          image:
+            "https://www.enowsoftware.com/hubfs/Azure-9.png",
         },
         
       
@@ -28,23 +48,120 @@ export const Bio = {
       ],
     },
     {
-      title: "Automation Tools",
+      title: "Infrastructure as Code",
       skills: [
+        {
+          name: "Terraform",
+          image:
+            "https://www.aviator.co/blog/wp-content/uploads/2023/01/terraform.png",
+        },
         
+        {
+          name: "ARM Templates",
+          image:
+            "https://www.varonis.com/hubfs/Imported_Blog_Media/azure-arm-hero-1.png",
+        },
         
       ],
     },
     {
-      title: "Virtualization",
+      title: "Automation & Scripting",
       skills: [
         {
-          name: "Java",
+          name: "PowerShell",
           image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+            "https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png",
         },
+
+        {
+          name: "Bash",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg",
+        },
+
+        {
+          name: "Python",
+          image:
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+        },
+
        
       ],
     },
+
+
+
+    {
+      title: "Automation & Scripting",
+      skills: [
+        {
+          name: "Azure Monitor",
+          image:
+            "https://www.cloudsma.com/wp-content/uploads/2020/01/azure_monitor_twitter.png",
+        },
+
+        {
+          name: "Azure Sentinel",
+          image:
+            "https://cdn.prod.website-files.com/64e50cbe2b6f932c04238c14/65bd1cf66a489fcb41c89f45_Azure_sentinel_high_res_logo%201.webp",
+        },
+
+      ],
+
+      },
+
+
+      {
+        title: "Security & Compliance",
+        skills: [
+          {
+            name: "Azure Firewall",
+            image:
+              "https://www.lindbergtech.com/content/images/size/w960/2023/08/Azure-firewall.png",
+          },
+  
+          {
+            name: "Entra ID",
+            image:
+              "https://en.wikipedia.org/wiki/Microsoft_Entra_ID#/media/File:Microsoft_Entra_ID_color_icon.svg",
+          },
+  
+
+          {
+            name: "Multi-Factor Authentication (MFA)",
+            image:
+              "https://portal.cotr.bc.ca/wp-content/uploads/1200x630wa-768x403.png",
+          },
+  
+
+        ],
+  
+        },
+
+      
+
+
+        
+      {
+        title: "Disaster Recovery & Business Continuity",
+        skills: [
+          {
+            name: "Azure Backup",
+            image:
+              "https://www.rworks.jp/wp-content/uploads/2021/10/AzureBackup-ttl.png",
+          },
+  
+          {
+            name: "Entra ID",
+            image:
+              "https://en.wikipedia.org/wiki/Microsoft_Entra_ID#/media/File:Microsoft_Entra_ID_color_icon.svg",
+          },
+        ],
+  
+        },
+
+
+      
     {
       title: "Others",
       skills: [
@@ -89,12 +206,7 @@ export const Bio = {
           image: "https://nodejs.org/static/images/logo.svg",
         },
         
-        {
-          name: "Python",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-        },
-
+        
       ],
         
     },
