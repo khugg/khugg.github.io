@@ -7,6 +7,8 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import { experiences } from '../../data/constants';
+import ExperienceCard from '../Cards/ExperienceCard';
+
 
 const Container = styled.div`
 display: flex;
@@ -67,21 +69,28 @@ const TimelineSection = styled.div`
 
 
 const Experience = () => {
-    return (<container  id="experience">
+    return (
+    <container  id="experience">
          <wrapper>
             <Title>Experience</Title>
             <Desc> My work experience as a Cloud engineer and working on different companies and projects.</Desc>
             <TimelineSection>
                <Timeline>
-                    {experiences.map((experience) => (
-                        <TimelineItem>Hello
-
+                    {experiences.map((experience,index) => (
+                        <TimelineItem>
+                             <TimelineSeparator>
+                             <TimelineDot variant="outlined" color="secondary" />
+                             {index !== experiences.length - 1 &&  <TimelineConnector/>}
+                             </TimelineSeparator>
+                             <TimelineContent sx={{ py: '12px', px: 2 }} >
+                                <ExperienceCard experience={experience}/>                                              
+                             </TimelineContent>
                        </TimelineItem>
                     ))}
-               </Timeline>        
+               </Timeline>                                      
             </TimelineSection>
 
-
+                                                                                                                                                                                     
      </wrapper>
     </container>);
 };
