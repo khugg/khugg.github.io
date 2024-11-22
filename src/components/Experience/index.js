@@ -1,5 +1,12 @@
 import React from "react";
 import styled from "styled-components"
+import Timeline from '@mui/lab/Timeline';
+import TimelineItem from '@mui/lab/TimelineItem';
+import TimelineSeparator from '@mui/lab/TimelineSeparator';
+import TimelineConnector from '@mui/lab/TimelineConnector';
+import TimelineContent from '@mui/lab/TimelineContent';
+import TimelineDot from '@mui/lab/TimelineDot';
+import { experiences } from '../../data/constants';
 
 const Container = styled.div`
 display: flex;
@@ -44,20 +51,35 @@ color: ${({ theme }) => theme.text_primary};
     }
 `;
 
+const TimelineSection = styled.div`
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+`;
+
+
 
 
 
 const Experience = () => {
-    return (<container>
+    return (<container  id="experience">
          <wrapper>
             <Title>Experience</Title>
-            <Desc> Here are some of my projects</Desc>
-            <TimeLineSection>
-            <Timeline>
-             {experiences.map((experience) => (
-                 <TimelineItem></TimeLineItem>
+            <Desc> My work experience as a Cloud engineer and working on different companies and projects.</Desc>
+            <TimelineSection>
+               <Timeline>
+                    {experiences.map((experience) => (
+                        <TimelineItem>Hello
+
+                       </TimelineItem>
                     ))}
-            </TimeLineSection>
+               </Timeline>        
+            </TimelineSection>
 
 
      </wrapper>

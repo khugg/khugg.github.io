@@ -2,7 +2,7 @@ export const Bio = {
     name: "Viviane Huguette",
     roles: [
       "Cloud Engineer",
-      "Microsoft Azure Administrator"
+      "Microsoft Azure Engineer"
       
     ],
     description:
@@ -38,7 +38,7 @@ export const Bio = {
 
 
         {
-          name: "Azure AD",
+          name: "Entra ID",
           image:
             "https://www.enowsoftware.com/hubfs/Azure-9.png",
         },
