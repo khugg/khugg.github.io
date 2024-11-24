@@ -87,9 +87,19 @@ const Duration = styled.div`
 `;
 
 
+const Description = styled.div`
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    color: ${({ theme }) => theme.text_primary + 99};
+    margin-bottom: 10px;
+    @media only screen and (max-width: 768px){
+        font-size: 12px;
+    }
+`;
 
 
-const ExperienceCard = (experience) => {
+const ExperienceCard = ({ experience}) => {
     return (
     <Card>
        <Top>
@@ -100,7 +110,8 @@ const ExperienceCard = (experience) => {
             <Duration>{experience.date}</Duration>
        </Body>
        </Top>
-       {/*<Description></Description>*/}
+       <Description>  
+        {experience?.desc} </Description>
        {/*{experience.doc &&(
        <a href={experience.doc} target="new">
        <Document/>
