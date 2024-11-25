@@ -347,7 +347,7 @@ export const Bio = {
         "Express Js",
         "Redux",
       ],
-      category: "Automation",
+      category: "automation",
       github: "https://github.com/rishavchanda/Trackify",
       webapp: "https://trackify.duckdns.org",
     },
@@ -362,7 +362,7 @@ export const Bio = {
       image:
         "",
       tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-      category: "Automation",
+      category: "automation",
       github: "https://github.com/rishavchanda/Buckoid-Android-App",
       webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
     },
@@ -375,7 +375,7 @@ export const Bio = {
       image:
         "",
       tags: ["React Native", "JavaScript", "Axios"],
-      category: "Monitoring",
+      category: "monitoring",
       github: "https://github.com/rishavchanda/Job-finder-App",
       webapp: "https://github.com/rishavchanda/Job-finder-App",
     },
@@ -389,7 +389,7 @@ export const Bio = {
       image:
         "",
       tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-      category: "DevOps",
+      category: "Devops",
       github: "https://github.com/rishavchanda/Todo-Web-App",
       webapp: "https://rishav-react-todo.netlify.app/",
     },
