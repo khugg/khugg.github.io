@@ -214,7 +214,7 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
-      img: "https://www.ukg.ca/themes/custom/ukg/dist/images/logo-green.png",
+      img: "https://ausbestworkplaces2021.economist.com/images/logos/UKG_Logo.png",
       role: "Mid-Level Azure Cloud Engineer",
       company: "UKG Ultimate – Remote.",
       date: "03/2023 – Present",
@@ -254,7 +254,7 @@ export const Bio = {
     },
     {
       id: 1,
-      img: "https://www.safe-guardproducts.com/wp-content/uploads/2023/09/safe-guard-logo-white.svg",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuw6wwD9bnQdKKTdD77Ci6lmncfiqv1GCiRA&s",
       role: "Junior Azure Cloud Engineer",
       company: "SafeGuard – Atlanta, GA",
       date: "10/2020 – 02/2022",

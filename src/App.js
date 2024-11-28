@@ -1,6 +1,6 @@
 import './App.css';
 import styled, { ThemeProvider } from 'styled-components'; 
-import { darkTheme } from './utils/themes.js'
+import { darkTheme, lightTheme } from './utils/themes.js'
 import Navbar from './components/navbar';
 import Skills from './components/Skills/index.js';
 import Experience from './components/Experience/index.js';
