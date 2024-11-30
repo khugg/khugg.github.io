@@ -14,8 +14,6 @@ Welcome to my portfolio! This project showcases my skills, projects, and experie
 ## Table of Contents
 - [Introduction](#introduction)
 - [Social Links](#social-links)
-- [Skills Section](#skills-section)
-- [Project Link](#project-link)
 - [Features](#features)
 
 ## Introduction
