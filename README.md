@@ -44,5 +44,12 @@ My name is Viviane Huguette and I'm an IT technician by profession who wants to 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to My Portfolio, please follow these steps:
 
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix: `git checkout -b my-feature`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin my-feature`
+5. Open a pull request.
+
+
 
 
