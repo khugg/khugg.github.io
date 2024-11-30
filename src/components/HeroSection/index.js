@@ -239,7 +239,7 @@ const HeroSection = () => {
                         <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
             </HeroLeftContainer>
             <HeroRightContainer>
-                <image src={HeroImg} alt="Hero"/>
+            <Img src={HeroImg} alt="hero-image" />
             </HeroRightContainer>
           </HeroInnerContainer>
         </HeroContainer>
