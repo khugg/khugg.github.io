@@ -33,8 +33,4 @@ My name is Viviane Huguette and I'm an IT technician by profession who wants to 
 </html>
 
 
-## Skills Section
- A list of my technical skills and proficiencies.. 
 
-## Project Link
- Coming Soon... 
