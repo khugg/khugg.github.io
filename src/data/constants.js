@@ -8,7 +8,8 @@ export const Bio = {
     description:
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/dashboard",
-    resume:"https://docs.google.com/document/d/1jifqWL8flZG5xnLYvDgbtGNE48MZc3r4W-vfgLqf5DU/edit?tab=t.0",
+    resume:
+    "https://docs.google.com/document/d/1jifqWL8flZG5xnLYvDgbtGNE48MZc3r4W-vfgLqf5DU/edit?tab=t.0",
     linkedin: "https://www.linkedin.com/feed/",
   };
   
