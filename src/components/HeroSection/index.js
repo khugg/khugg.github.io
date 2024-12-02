@@ -5,7 +5,7 @@ import Typewriter from 'typewriter-effect';
 import { Subitles } from "@mui/icons-material";
 import HeroImg from "../../images/Heroimages.jpg";
 import _default from "../../themes/default";
-
+import HeroBgAnimation from '../HeroBgAnimation'
 
 export const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
@@ -213,7 +213,7 @@ const HeroSection = () => {
       <div id="about">
         <HeroContainer>
           <HeroBg>
-            
+            <HeroBgAnimation />
           </HeroBg>
           <HeroInnerContainer>
             <HeroLeftContainer>
