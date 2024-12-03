@@ -38,7 +38,14 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="Devops" onClick={() => setToggle('Devops')}>Devops</ToggleButton>
           }
+          <Divider />
+          {toggle === 'portfolio website' ?
+            <ToggleButton active value="portfolio website" onClick={() => setToggle('portfolio website')}>Portfolio website</ToggleButton>
+            :
+            <ToggleButton value="portfolio website" onClick={() => setToggle('portfolio website')}>Portfolio website</ToggleButton>
+          }
         </ToggleButtonGroup>
+
         <CardContainer>
           {toggle === 'all' && projects
             .map((project) => (

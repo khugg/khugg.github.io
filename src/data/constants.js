@@ -332,71 +332,92 @@ export const Bio = {
   export const projects = [
     {
       id: 9,
-      title: "Trackify",
-      date: "Jun 2023 - Jul 2023",
+      title: "Scalable infrastructure",
+      date: "Dec 2024 - Jul 2025",
       description:
-        "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+        "Scalable infrastructure refers to a system or setup that can easily adapt and grow to accommodate increasing demands and workloads without compromising performance, efficiency, or cost. In the context of data teams, it involves building a modern data stack that can handle increasing data volumes, users, and complexity while maintaining cost containment and delivering value to the business.",
       image:
-        "",
+        "https://spacelift.io/_next/image?url=https%3A%2F%2Fspaceliftio.wpcomstaging.com%2Fwp-content%2Fuploads%2F2023%2F03%2Fscalable-infra-benefits.png&w=1920&q=75",
       tags: [
-        "Docker",
-        "AWS",
-        "DuckDNS",
-        "Eslint",
-        "Husky",
-        "CI/CD",
-        "React Js",
-        "MongoDb",
-        "Node Js",
-        "Express Js",
-        "Redux",
+        "Azure monitor",
+        "Power apps",
+        "Power Automate",
+        
       ],
       category: "automation",
-      github: "https://github.com/rishavchanda/Trackify",
-      webapp: "https://trackify.duckdns.org",
+      github: "https://khugg.github.io",
+      webapp: "https://github.com/khugg/khugg.github.io",
     },
     
     
     {
       id: 0,
-      title: "Buckoid",
-      date: "Dec 2021 - Apr 2022",
+      title: "Azure Automation",
+      date: "Dec 2024 - Jul 2025",
       description:
-        "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
+        "Azure Automation provides tools to manage your cloud and on-premises infrastructure seamlessly..",
       image:
-        "",
-      tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
+        "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*1GuzW9lbE3-eW_B92XJnNA.png",
+      tags: [ "Azure monitor",
+        "Power apps",
+        "Power Automate",],
+
+        
       category: "automation",
-      github: "https://github.com/rishavchanda/Buckoid-Android-App",
-      webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+      github: "https://khugg.github.io",
+      webapp: "https://github.com/khugg/khugg.github.io",
     },
     {
       id: 1,
-      title: "Job Finding App",
-      date: "Jun 2023 - Jul 2023",
+      title: "Azure SQL Database Monitoring",
+      date: "Dec 2024 - Jul 2025",
       description:
-        "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
+        "A single pane of glass to look at your Azure databases and your on-premises servers at the same time.",
       image:
-        "",
-      tags: ["React Native", "JavaScript", "Axios"],
+        "https://www.hugobarona.com/monitoring-azure-sql-database-effectively-in-2022/featured-image.png",
+      tags: ["Metrics Explorer", "Log Analytics"],
       category: "monitoring",
-      github: "https://github.com/rishavchanda/Job-finder-App",
-      webapp: "https://github.com/rishavchanda/Job-finder-App",
+      github: "https://khugg.github.io",
+      webapp: "https://github.com/khugg/khugg.github.io",
     },
    
     {
       id: 2,
-      title: "Todo Web App",
-      date: "Jun 2021",
+      title: "ViviFolio",
+      date: "Nov 2024",
       description:
-        " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
+        "My portfolio website  showcases my best work.",
       image:
-        "",
-      tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-      category: "Devops",
-      github: "https://github.com/rishavchanda/Todo-Web-App",
-      webapp: "https://rishav-react-todo.netlify.app/",
+        "https://github.com/user-attachments/assets/06791603-4d08-4fcf-bf79-5e8cd37dccec",
+      tags: ["React Js", "github","Node JS"],
+      category: "portfolio website",
+      github: "https://khugg.github.io",
+      webapp: "https://github.com/khugg/khugg.github.io",
     },
+
+
+
+
+
+
+    {
+      id: 2,
+      title: "Devops",
+      date: "Dec 2024 - Jul 2025",
+      description:
+        " DevOps is a combination of software development (dev) and operations (ops). It is defined as a software engineering methodology which aims to integrate the work of development teams and operations teams by facilitating a culture of collaboration and shared responsibility.",
+      image:
+        "https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/63cf9397b481dfe16fa67459_DevOps%20definition.png",
+      tags: ["Docker", "Kurbenetes", "Git", "Ansible"],
+      category: "Devops",
+      github: "https://khugg.github.io",
+      webapp: "https://github.com/khugg/khugg.github.io",
+    },
+
+
+
+
+
    
   ];
   
