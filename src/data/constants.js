@@ -184,9 +184,9 @@ export const Bio = {
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
         },
         {
-          name: "Netlify",
+          name: "Javascript",
           image:
-            "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+            "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
         },
         {
           name: "VS Code",

@@ -32,6 +32,10 @@ align-items: center;
 flex-direction: column;
 width: 100%;
 gap: 12px;
+ @media (max-width: 960px) {
+      flex-direction: column;
+      }
+
 `;
 
 
@@ -53,6 +57,7 @@ color: ${({ theme }) => theme.text_primary};
     text-align: center;
     color: ${({ theme }) => theme.text_secondary};
     @media (max-width: 768px) {
+        margin-top: 12px;
         font-size: 16px;
   }
 `;

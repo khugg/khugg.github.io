@@ -6,7 +6,7 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-import {experiences} from '../../data/constants';
+import {experiences, education} from '../../data/constants';
 import ExperienceCard from '../Cards/ExperienceCard';
 
 
@@ -32,6 +32,9 @@ align-items: center;
 flex-direction: column;
 width: 100%;
 gap: 12px;
+ @media (max-width: 960px) {
+      flex-direction: column;
+      }
 `;
 
 
@@ -53,6 +56,7 @@ color: ${({ theme }) => theme.text_primary};
     text-align: center;
     color: ${({ theme }) => theme.text_secondary};
     @media (max-width: 768px) {
+        margin-top: 12px;
         font-size: 16px;
   }
 `;
@@ -86,7 +90,7 @@ const experience = () => {
                             <TimelineItem>
                                 <TimelineSeparator>
                                     <TimelineDot variant="outlined" color="secondary" />
-                                    {index !== experiences.length - 1 && <TimelineConnector style={{ background: '#854CE6' }} />}
+                                    {index !== education.length - 0 && <TimelineConnector style={{ background: '#854CE6' }} />}
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                                     <ExperienceCard experience={experience}/>
