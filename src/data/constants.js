@@ -345,8 +345,8 @@ export const Bio = {
         
       ],
       category: "automation",
-      github: "https://khugg.github.io",
-      webapp: "https://github.com/khugg/khugg.github.io",
+      github: "https://github.com/khugg/khugg.github.io",
+      webapp: " https://khugg.github.io",
     },
     
     
@@ -364,8 +364,8 @@ export const Bio = {
 
         
       category: "automation",
-      github: "https://khugg.github.io",
-      webapp: "https://github.com/khugg/khugg.github.io",
+      github: "https://github.com/khugg/khugg.github.io",
+      webapp: " https://khugg.github.io",
     },
     {
       id: 1,
@@ -377,8 +377,8 @@ export const Bio = {
         "https://www.hugobarona.com/monitoring-azure-sql-database-effectively-in-2022/featured-image.png",
       tags: ["Metrics Explorer", "Log Analytics"],
       category: "monitoring",
-      github: "https://khugg.github.io",
-      webapp: "https://github.com/khugg/khugg.github.io",
+      github: "https://github.com/khugg/khugg.github.io",
+      webapp: " https://khugg.github.io",
     },
    
     {
@@ -391,8 +391,8 @@ export const Bio = {
         "https://github.com/user-attachments/assets/06791603-4d08-4fcf-bf79-5e8cd37dccec",
       tags: ["React Js", "github","Node JS"],
       category: "portfolio website",
-      github: "https://khugg.github.io",
-      webapp: "https://github.com/khugg/khugg.github.io",
+      github: "https://github.com/khugg/khugg.github.io",
+      webapp: " https://khugg.github.io",
     },
 
 
@@ -410,11 +410,11 @@ export const Bio = {
         "https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/63cf9397b481dfe16fa67459_DevOps%20definition.png",
       tags: ["Docker", "Kurbenetes", "Git", "Ansible"],
       category: "Devops",
-      github: "https://khugg.github.io",
-      webapp: "https://github.com/khugg/khugg.github.io",
+      github: "https://github.com/khugg/khugg.github.io",
+      webapp: " https://khugg.github.io",
     },
 
-
+   
 
 
 
