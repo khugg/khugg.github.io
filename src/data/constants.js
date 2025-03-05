@@ -333,14 +333,21 @@ export const Bio = {
     {
       id: 9,
       title: "Scalable infrastructure",
-      date: "Dec 2024 - Jul 2025",
+      date: "Dec 2024 - jan 2025",
       description:
-        "Scalable infrastructure refers to a system or setup that can easily adapt and grow to accommodate increasing demands and workloads without compromising performance, efficiency, or cost. In the context of data teams, it involves building a modern data stack that can handle increasing data volumes, users, and complexity while maintaining cost containment and delivering value to the business.",
+        "scalable infrastructure on Azure to host their customer-facing web application, expected to see high traffic.",
       image:
         "https://spacelift.io/_next/image?url=https%3A%2F%2Fspaceliftio.wpcomstaging.com%2Fwp-content%2Fuploads%2F2023%2F03%2Fscalable-infra-benefits.png&w=1920&q=75",
       tags: [
         "Azure monitor",
-        "Power apps",
+        "Azure Storage",
+        "Azure Virtual Machines",
+        "Azure Backup",
+        "Azure Firewall",
+        "Identity and Access Management",
+        "Azure AD",
+        "cost management",
+        "Azure Monitor",
         "Power Automate",
         
       ],
@@ -391,7 +398,7 @@ export const Bio = {
         "https://github.com/user-attachments/assets/06791603-4d08-4fcf-bf79-5e8cd37dccec",
       tags: ["React Js", "github","Node JS"],
       category: "portfolio website",
-      github: "https://github.com/khugg/khugg.github.io",
+      github: "https://github.com/khugg/FinTechEdge-Terraform-VMSS-Traffic-Manager-AzureFirewall",
       webapp: " https://khugg.github.io",
     },
 
@@ -410,7 +417,7 @@ export const Bio = {
         "https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/63cf9397b481dfe16fa67459_DevOps%20definition.png",
       tags: ["Docker", "Kurbenetes", "Git", "Ansible"],
       category: "Devops",
-      github: "https://github.com/khugg/khugg.github.io",
+      github: "https://github.com/khugg/FinTechEdge-Terraform-VMSS-Traffic-Manager-AzureFirewall",
       webapp: " https://khugg.github.io",
     },
 
